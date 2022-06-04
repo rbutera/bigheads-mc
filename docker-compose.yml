@@ -16,6 +16,6 @@ services:
     tty: true
     stdin_open: true
     restart: always
-  volumes:
-    - ./data:/data
+    volumes:
+      - ./data:/data
 
