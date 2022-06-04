@@ -1,0 +1,133 @@
+{
+  "showItems": true,
+  "repairCost": true,
+  "pingIndicator": true,
+  "infinityFix": true,
+  "itemEntity": true,
+  "beehiveTips": true,
+  "durabilityWarn": false,
+  "cropStuff": {
+    "sugarCaneHeight": 5,
+    "cropSparkle": true,
+    "sparkleType": "INSTANT_EFFECT",
+    "sparkleCount": 2
+  },
+  "clockStuff": {
+    "doClock": false,
+    "clockCorner": 1,
+    "clockMilitary": false,
+    "clockAmPm": true
+  },
+  "showSleepCount": true,
+  "toggles": {
+    "chunker": true,
+    "slimer": true,
+    "daylighter": true,
+    "fleather": true,
+    "charcoal": true,
+    "coalChunks": true,
+    "sticks": true,
+    "featherBlock": true,
+    "furnaces": true,
+    "blasts": true,
+    "smokers": true,
+    "woolArmor": true,
+    "copperArmor": true,
+    "chainArmor": true,
+    "chests": true,
+    "massTorch": true,
+    "allShapeless": true,
+    "shapeless": {
+      "bread": true,
+      "arrow": true,
+      "paper": true,
+      "shulker": true
+    },
+    "allConvertStone": true,
+    "convertStone": {
+      "blackstone": true,
+      "gilded_blackstone": true,
+      "diorite": true,
+      "granite": true,
+      "andesite": true,
+      "mossy_cobble": true,
+      "quartz": true
+    },
+    "allUnpack": true,
+    "unpack": {
+      "clay": true,
+      "flint": true,
+      "amethyst": true,
+      "blazerod": true,
+      "brown_mushroom": true,
+      "red_mushroom": true,
+      "wart": true,
+      "glowstone": true,
+      "string": true,
+      "quartz": true
+    },
+    "allHorseArmor": true,
+    "horseArmor": {
+      "iron": true,
+      "gold": true,
+      "diamond": true
+    },
+    "allOverPower": true,
+    "overPowered": {
+      "slime": true,
+      "trident": true,
+      "nametag": true,
+      "notchapple": true,
+      "saddle": true
+    },
+    "allRawSmelt": true,
+    "rawSmelt": {
+      "copper": true,
+      "iron": true,
+      "gold": true
+    },
+    "allReclaim": true,
+    "reclaim": {
+      "copper": true,
+      "iron": true,
+      "gold": true,
+      "diamond": true
+    },
+    "allTools": true,
+    "toolToggles": {
+      "graniteTools": true,
+      "dioriteTools": true,
+      "andesiteTools": true,
+      "quartzTools": true,
+      "netherrackTools": true,
+      "netherbrickTools": true,
+      "redNetherbrickTools": true,
+      "sandstoneTools": true,
+      "redSandstoneTools": true,
+      "lapisTools": true,
+      "emeraldTools": true,
+      "flintTools": true,
+      "redstoneTools": true,
+      "blackstoneTools": true,
+      "basaltTools": true,
+      "endstoneTools": true,
+      "warpedTools": true,
+      "crimsonTools": true,
+      "amethystTools": true,
+      "copperTools": true,
+      "deepslateTools": true
+    },
+    "allCompressedBlocks": true,
+    "compressedBlocks": {
+      "cobble": true,
+      "dirt": true,
+      "diorite": true,
+      "andesite": true,
+      "granite": true,
+      "netherrack": true,
+      "sand": true,
+      "gravel": true,
+      "deepslate": true
+    }
+  }
+}
