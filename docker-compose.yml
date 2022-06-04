@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    environment:
+      TYPE: "FORGE"
+      EULA: "TRUE"
+      MOTD: "A Better Minecraft server for Rai and Emma and friends"
+      MEMORY: "2G"
+      RCON_PASSWORD: ${RCON_PASSWORD}
+      ENABLE_RCON: "true"
+      RCON_PORT: 28016
+    tty: true
+    stdin_open: true
+    restart: always
+  volumes:
+    - ./data:/data
+
