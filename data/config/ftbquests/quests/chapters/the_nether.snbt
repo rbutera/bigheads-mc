@@ -1,0 +1,176 @@
+{
+	id: "1741F423C5BCCCD3"
+	group: ""
+	order_index: 1
+	filename: "the_nether"
+	title: "The Nether"
+	icon: "minecraft:obsidian"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Enter the Nether Dimension"
+			icon: "minecraft:netherrack"
+			x: 0.0d
+			y: 0.0d
+			id: "1188DA3AC0F2DB91"
+			tasks: [{
+				id: "3520D5530EB1C064"
+				type: "dimension"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "3FF1937EE33910A6"
+					type: "item"
+					item: {
+						id: "minecraft:nether_star"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Use me on an Altar\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "0003B345B7ED8215"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: "stalwart_dungeons:keeping_castle_spawner"
+			x: 1.5d
+			y: 0.0d
+			description: ["Keeping Castle spawns in Nether Waste and Crimson Forest, to Summon the Nether Keeper you right click the Altar with the Nether Star"]
+			optional: true
+			id: "41F659AE9D570ABD"
+			tasks: [{
+				id: "4CEFBA5E9577BF9B"
+				type: "kill"
+				title: "Kill The Nether Keeper"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				entity: "stalwart_dungeons:nether_keeper"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2760A0D32D33725C"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "6767A4559466C9DD"
+					type: "item"
+					item: "alexsmobs:spawn_egg_warped_mosco"
+				}
+				{
+					id: "216271B489EB6C4E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["Use the Soul Stone Blocks instead of the Soul Sand"]
+			dependencies: ["1188DA3AC0F2DB91"]
+			optional: true
+			id: "0BFD8ED8A0E3AE60"
+			tasks: [{
+				id: "575C8BC94DAC2B05"
+				type: "kill"
+				title: "Kill The Wither"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "53D8F80A9F312CE4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3E46C65237DC7FD1"
+					type: "item"
+					item: {
+						id: "warden_and_sculk:sculk_shrieker"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Used to Spawn the Warden\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Kill an Awful Ghast"
+			icon: "stalwart_dungeons:awful_dungeon_spawner"
+			x: 3.0d
+			y: 0.0d
+			description: ["Awful Dungeon spawns in the Soul Sand Valley and Warped Forest, right click the Altar with a Nether Star to Summon the Awful Ghast"]
+			dependencies: ["1188DA3AC0F2DB91"]
+			id: "44A66EF4F8F4791B"
+			tasks: [{
+				id: "44D2D815BE6258E5"
+				type: "kill"
+				icon: "stalwart_dungeons:awful_dungeon_spawner"
+				entity: "stalwart_dungeons:awful_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "02392F1024936789"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "2C9237D0CCE0C107"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["44A66EF4F8F4791B"]
+			id: "1DEBE563E5673B95"
+			tasks: [{
+				id: "4DBC642134268AE7"
+				type: "kill"
+				title: "Kill the Netherite Monstrosity"
+				icon: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3F53BE78EC264653"
+					type: "item"
+					item: "upgradednetherite_items:netherite_totem"
+				}
+				{
+					id: "5E9D250E5ECC4DA1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,190 @@
+{
+	id: "1D4E5CDD59FFB7A0"
+	group: ""
+	order_index: 0
+	filename: "overworld"
+	title: "Overworld"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -3.0d
+			dependency_requirement: "all_started"
+			id: "45EF4546353A38C2"
+			tasks: [{
+				id: "26ABE15A4BF68DBB"
+				type: "dimension"
+				title: "Start your new Adventure!"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "7016D2EC1EC03A44"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							pages: ["{\"text\":\"Welcome to Better Minecraft [FORGE] 1.18\\nAlthough there are not many Quests as Mods are still updating, the Quests will guide you on the bosses you can defeat in the different dimensions. The rest is up to you to Explore this wonderfull NEW World full of AMAZING Mods!\"}"]
+							filtered_title: "BMC FORGE 1.18"
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Start your new Adventure!\"}"
+							}
+							author: "SharkieLPS"
+							title: "BMC FORGE 1.18"
+						}
+					}
+				}
+				{
+					id: "4322DD41657C4A8C"
+					type: "item"
+					item: "alexsmobs:animal_dictionary"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "268A05DFD4D5427A"
+			tasks: [{
+				id: "08CA723FD16E3030"
+				type: "item"
+				title: "Obtain a Blue Journal from the Gatekeeper"
+				item: "blue_skies:blue_journal"
+			}]
+			rewards: [
+				{
+					id: "14F327BA69B975BD"
+					type: "item"
+					item: "blue_skies:turquoise_stonebrick"
+					count: 12
+				}
+				{
+					id: "2D05266B3F98B211"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+					count: 12
+				}
+				{
+					id: "187889738A206AE9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "6A12B1FE7B703F9D"
+			tasks: [{
+				id: "44740305C2A8DC52"
+				type: "item"
+				title: "Craft a Backpack"
+				item: "backpacked:backpack"
+			}]
+			rewards: [
+				{
+					id: "329A30EE6A845B60"
+					type: "item"
+					item: "sereneseasons:calendar"
+				}
+				{
+					id: "4B5921249FA1D582"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "517968641D1D2BEE"
+					type: "item"
+					item: "magnumtorch:diamond_magnum_torch"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			id: "3DAB175493B08089"
+			tasks: [{
+				id: "10911C878598A90F"
+				type: "kill"
+				title: "Kill the Conjurer"
+				icon: {
+					id: "conjurer_illager:conjurer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "conjurer_illager:conjurer"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0182597E906CA72E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7FA31D9126C12D11"
+					type: "item"
+					item: "villagertools:guard"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			id: "26EA75D177BC496B"
+			tasks: [{
+				id: "7362BF4629FAD929"
+				type: "advancement"
+				title: "Defend a Village"
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2F1EFCBC72F69624"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "00F69BDF4237404F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			dependencies: ["45EF4546353A38C2"]
+			id: "6C8346FAB132A5FC"
+			tasks: [{
+				id: "691549A80E2ACCBB"
+				type: "kill"
+				title: "Kill the Warden"
+				icon: "warden_and_sculk:sculk_shrieker"
+				entity: "warden_and_sculk:warden"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0C6BDE349E2A509E"
+					type: "item"
+					item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+					count: 2
+				}
+				{
+					id: "50E9D17802169AB4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}
