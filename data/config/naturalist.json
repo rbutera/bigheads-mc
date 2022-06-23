@@ -1,0 +1,13 @@
+{
+  "snailSpawnWeight": 4,
+  "snakeSpawnWeight": 4,
+  "coralSnakeSpawnWeight": 4,
+  "rattlesnakeSpawnWeight": 4,
+  "bearSpawnWeight": 6,
+  "deerSpawnWeight": 6,
+  "fireflySpawnWeight": 8,
+  "birdSpawnWeight": 10,
+  "butterflySpawnWeight": 4,
+  "forestRabbitSpawnWeight": 4,
+  "forestFoxSpawnWeight": 4
+}

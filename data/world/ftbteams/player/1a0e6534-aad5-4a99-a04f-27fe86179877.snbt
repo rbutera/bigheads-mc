@@ -1,0 +1,19 @@
+{
+	id: "1a0e6534-aad5-4a99-a04f-27fe86179877"
+	type: "player"
+	player_name: "turtle9691"
+	ranks: {
+		1a0e6534-aad5-4a99-a04f-27fe86179877: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "turtle9691"
+		"ftbteams:color": "#77FF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
